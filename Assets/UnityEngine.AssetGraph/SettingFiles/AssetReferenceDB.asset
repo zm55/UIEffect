@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4bc21567f434b598a3c96ba4946372, type: 3}
+  m_Name: AssetReferenceDB
+  m_EditorClassIdentifier: 
+  m_assets:
+  - m_assetDatabaseId: 8dc667e117bb14b63a71d5ab6b83a2b5
+    m_importFrom: Assets/UIEffect/Demo/Alpha.controller
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEditor.Animations.AnimatorController, UnityEditor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 151a521e1127048568ae9c062c53bd05
+    m_importFrom: Assets/UIEffect/Demo/Blur.controller
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEditor.Animations.AnimatorController, UnityEditor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: c5d9ba160f4f94fc7b37041671ac013d
+    m_importFrom: Assets/UIEffect/Demo/Color.controller
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEditor.Animations.AnimatorController, UnityEditor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 67e572a00c48842ae88b291d09d41b72
+    m_importFrom: Assets/UIEffect/Demo/Demo - UIEffect.unity
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEditor.SceneAsset, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - m_assetDatabaseId: 9820e2e2a29ff0c44951f893ab817316
+    m_importFrom: Assets/UIEffect/Demo/Dialog.controller
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEditor.Animations.AnimatorController, UnityEditor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: a354287fa5d134f4abacf0051eadcabe
+    m_importFrom: Assets/UIEffect/Demo/bundle_1.prefab
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: d63908c06f4ed45c8a42ff5c071279bf
+    m_importFrom: Assets/UIEffect/Demo/bundle_2.prefab
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 529a51ce456fc487db93a64ec7937211
+    m_importFrom: Assets/UIEffect/Demo/Pattern.png
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 55eea3344de6448c0b90f5c9124318ba
+    m_importFrom: Assets/UIEffect/Demo/bundle_3.prefab
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 195bfcd2f03c5431888eb8cd9bfd9d9d
+    m_importFrom: Assets/UIEffect/Demo/bundle_4.prefab
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: bc01d71324cc548bf958c751cbb0d693
+    m_importFrom: Assets/UIEffect/Demo/Shadow.controller
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEditor.Animations.AnimatorController, UnityEditor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: e129a7bccac914fc0b15dab3c2395cd3
+    m_importFrom: Assets/UIEffect/Demo/ToneLevel.controller
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEditor.Animations.AnimatorController, UnityEditor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: e3cb99c58283f294a9e51c0c30046b18
+    m_importFrom: Assets/UIEffect/Demo/Transition.controller
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEditor.Animations.AnimatorController, UnityEditor, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: e81974d221f13d246b4d1ae292e3181a
+    m_importFrom: Assets/UIEffect/Demo/UIEffectDialogDemo.cs
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEditor.MonoScript, UnityEditor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - m_assetDatabaseId: 925f66fdcc9764b579413b7408c718f2
+    m_importFrom: Assets/UIEffect/Demo/Unity-chan.png
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/AssetBundles
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleManifestReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/AssetBundles.manifest
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/bundle_1
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/bundle_1.manifest
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/bundle_2
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/bundle_2.manifest
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/bundle_3
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/bundle_3.manifest
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/bundle_4
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/bundle_4.manifest
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/shared_0
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/shared_0.manifest
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/shared_1
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/shared_1.manifest
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/shared_0_0
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/shared_0_0.manifest
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/shared_1_0
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/shared_1_0.manifest
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/shared_1_1
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  - m_assetDatabaseId: 
+    m_importFrom: AssetBundles/shared_1_1.manifest
+    m_exportTo: 
+    m_variantName: 
+    m_assetTypeString: UnityEngine.AssetGraph.AssetBundleReference, Assembly-CSharp-Editor,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_version: 2

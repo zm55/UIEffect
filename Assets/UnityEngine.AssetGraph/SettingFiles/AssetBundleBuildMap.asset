@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7cfce4400474688aa803f13d8eb448, type: 3}
+  m_Name: AssetBundleBuildMap
+  m_EditorClassIdentifier: 
+  m_assetBundles:
+  - m_assetBundleName: bundle_1
+    m_assetBundleVariantName: 
+    m_fullName: bundle_1
+    m_assets:
+    - original: Assets/UIEffect/Demo/bundle_1.prefab
+      lower: assets/uieffect/demo/bundle_1.prefab
+    m_registererId: 0d40c13a-bcb0-44be-aefe-f8fc407ff9e8
+  - m_assetBundleName: bundle_2
+    m_assetBundleVariantName: 
+    m_fullName: bundle_2
+    m_assets:
+    - original: Assets/UIEffect/Demo/bundle_2.prefab
+      lower: assets/uieffect/demo/bundle_2.prefab
+    m_registererId: 0d40c13a-bcb0-44be-aefe-f8fc407ff9e8
+  - m_assetBundleName: bundle_3
+    m_assetBundleVariantName: 
+    m_fullName: bundle_3
+    m_assets:
+    - original: Assets/UIEffect/Demo/bundle_3.prefab
+      lower: assets/uieffect/demo/bundle_3.prefab
+    m_registererId: 0d40c13a-bcb0-44be-aefe-f8fc407ff9e8
+  - m_assetBundleName: bundle_4
+    m_assetBundleVariantName: 
+    m_fullName: bundle_4
+    m_assets:
+    - original: Assets/UIEffect/Demo/bundle_4.prefab
+      lower: assets/uieffect/demo/bundle_4.prefab
+    m_registererId: 0d40c13a-bcb0-44be-aefe-f8fc407ff9e8
+  - m_assetBundleName: shared_0
+    m_assetBundleVariantName: 
+    m_fullName: shared_0
+    m_assets:
+    - original: Assets/UIEffect/Materials/UI-Effect-Grayscale.mat
+      lower: assets/uieffect/materials/ui-effect-grayscale.mat
+    m_registererId: 3d274154-ac73-45bb-8d93-41e84cff74f5
+  - m_assetBundleName: shared_1
+    m_assetBundleVariantName: 
+    m_fullName: shared_1
+    m_assets:
+    - original: Assets/UIEffect/UI-Effect.shader
+      lower: assets/uieffect/ui-effect.shader
+    - original: Assets/UIEffect/Demo/Unity-chan.png
+      lower: assets/uieffect/demo/unity-chan.png
+    m_registererId: 3d274154-ac73-45bb-8d93-41e84cff74f5
+  m_version: 1

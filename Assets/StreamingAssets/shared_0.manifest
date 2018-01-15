@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 1256002268
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6e1ea7b5576652748b2cc8864080d3a4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1f201a7e2e0b91eed0d9b70a8f1a3833
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/UIEffect/Materials/UI-Effect-Pixel-Set-Detail.mat
+- Assets/UIEffect/UI-Effect.shader
+- Assets/UIEffect/Demo/Unity-chan.png
+Dependencies: []
