@@ -54,7 +54,7 @@ Shader "UI/Hidden/UI-Effect"
 			
 			#pragma multi_compile __ UNITY_UI_ALPHACLIP
 
-			#pragma shader_feature __ UI_TONE_GRAYSCALE UI_TONE_SEPIA UI_TONE_NEGA UI_TONE_PIXEL UI_TONE_MONO UI_TONE_CUTOFF UI_TONE_HUE 
+			#pragma shader_feature __ UI_TONE_GRAYSCALE UI_TONE_SEPIA UI_TONE_NEGA UI_TONE_PIXEL UI_TONE_MONO UI_TONE_CUTOFF UI_TONE_HUE UI_TONE_NOISE
 			#pragma shader_feature __ UI_COLOR_ADD UI_COLOR_SUB UI_COLOR_SET
 			#pragma shader_feature __ UI_BLUR_FAST UI_BLUR_MEDIUM UI_BLUR_DETAIL
 
@@ -94,6 +94,7 @@ Shader "UI/Hidden/UI-Effect"
 			float4 _ClipRect;
 			sampler2D _MainTex;
 			float4 _MainTex_TexelSize;
+
 			
 			v2f vert(appdata_t IN)
 			{
@@ -117,6 +118,10 @@ Shader "UI/Hidden/UI-Effect"
 				#elif UI_TONE_PIXEL
 				OUT.effectFactor.xy = max(2, (1-OUT.effectFactor.x) * _MainTex_TexelSize.zw);
 				#endif
+
+				#if UI_TONE_NOISE
+				OUT.effectFactor.y = floor(_SinTime.x * 43758.5453);
+				#endif
 				
 				#if defined (UI_COLOR)
 				OUT.colorFactor = UnpackToVec4(IN.uv1.y);
@@ -125,11 +130,13 @@ Shader "UI/Hidden/UI-Effect"
 				return OUT;
 			}
 
-
 			fixed4 frag(v2f IN) : SV_Target
 			{
 				#if UI_TONE_PIXEL
 				IN.texcoord = round(IN.texcoord * IN.effectFactor.xy) / IN.effectFactor.xy;
+				#elif UI_TONE_NOISE
+        		IN.texcoord.x += IN.effectFactor.x * _MainTex_TexelSize.xy * 16 * (GetRandom(IN.texcoord) - 0.5);
+        		IN.texcoord.y += IN.effectFactor.x * _MainTex_TexelSize.xy * 16 * (GetRandom(IN.texcoord.yx) - 0.5);
 				#endif
 
 				#if defined (UI_BLUR)

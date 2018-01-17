@@ -72,6 +72,7 @@ namespace Coffee.UIExtensions
 			Mono,
 			Cutoff,
 			Hue,
+			Noise,
 		}
 
 		/// <summary>

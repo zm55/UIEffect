@@ -6,7 +6,7 @@
 //################################
 #define PACKER_STEP 64
 
-#if UI_TONE_GRAYSCALE | UI_TONE_SEPIA | UI_TONE_NEGA | UI_TONE_PIXEL | UI_TONE_MONO | UI_TONE_CUTOFF | UI_TONE_HUE
+#if UI_TONE_GRAYSCALE | UI_TONE_SEPIA | UI_TONE_NEGA | UI_TONE_PIXEL | UI_TONE_MONO | UI_TONE_CUTOFF | UI_TONE_HUE | UI_TONE_NOISE
 #define UI_TONE
 #endif
 
@@ -130,6 +130,12 @@ fixed4 ApplyToneEffect(fixed4 color, fixed factor)
 	return color;
 }
 
+// Get random value.
+// This function is periodic and lightweight because it does not use a transcendental function.
+float GetRandom(float2 value)
+{
+	return frac(value.x * 12.9898 + value.y * 78.233 + _Time.x * 43758.5453);
+}
 
 //################################
 // Color effect
