@@ -28,9 +28,6 @@ namespace Coffee.UIExtensions
 			// Export package
 			AssetDatabase.ExportPackage(kAssetPathes, kPackageName, ExportPackageOptions.Recurse | ExportPackageOptions.Default);
 			UnityEngine.Debug.Log("Export successfully : " + kPackageName);
-
-			// Update readme.
-			System.IO.File.Copy("Assets/UIEffect/Readme.md", "Readme.md", true);
 		}
 
 		[MenuItem("Export Package/Generate Material Variants")]
